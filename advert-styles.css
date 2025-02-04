@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+
+body {
+    background-image: url("advert-bg.png");
+    background-size: 100%;
+    background-color: #000000;
+    font-family: 'Fragment Mono';
+    color: #f0f0f0;
+}
+
+header {
+    font-family: "Pirata One";
+    font-size: xx-large;
+    position: absolute;
+    width:99%;
+    text-align:center;
+    top:5%;
+}
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    width: 300px;
+    background-color: #111111;
+    border: 3px solid #df8049;
+}
+
+.link {
+    text-decoration: underline;
+    text-decoration-color: #df8049;
+}
+
+.highlight {
+    font-size: 125%;
+    color: #df8049;
+}

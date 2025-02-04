@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Noto%20Sans%20Warang%20Citi:700|Noto%20Sans%20Warang%20Citi:400');
+@import url('https://fonts.googleapis.com/css?family=Fragment%20Mono:700|Fragment%20Mono:400');
+
+header {
+    margin-top: 5%;
+    margin-left: 15%;
+    
+}
+
+body {
+    background-color: #282d41;
+    font-family: 'Fragment Mono';
+    color: #f0f0f0;
+}
+
+h2 {
+    position: relative;
+    bottom: 30px;
+}
+
+.side-content{
+    max-width: 30%;
+    position: absolute;
+    right: 350px;
+    top: 100px;
+    font-size: large;
+}
+
+.caption {
+    max-width: 25%;
+}
+
+.title {
+    font-size: 300%;
+}
+
+.highlight {
+    font-size: 125%;
+    color: #df8049;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #5c5f6d;
+}
+
+li a {
+    display: block;
+    color: #f0f0f0;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #df8049;
+    color: #f0f0f0;
+}
+
+li a:hover:not(.active) {
+    background-color: #83889b;
+    color: #f0f0f0;
+}
+
+.link {
+    text-decoration: underline;
+    text-decoration-color: #df8049;
+}
+
+#small-pic {
+    max-width: 100%;
+}
